@@ -1,5 +1,5 @@
-#FROM hypriot/rpi-golang:latest
-FROM golang:latest
+FROM hypriot/rpi-golang:latest
+# FROM golang:latest
 
 RUN mkdir -p /go/src/hello && mkdir /artifacts
 
