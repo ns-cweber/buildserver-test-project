@@ -12,7 +12,7 @@ func main() {
 		fmt.Fprintln(w, "Hello, world!")
 	})
 
-	addr := ":8080"
+	addr := ":8081"
 	log.Println("Listening at", addr)
 	if err := http.ListenAndServe(addr, nil); err != nil {
 		log.Fatal(err)
